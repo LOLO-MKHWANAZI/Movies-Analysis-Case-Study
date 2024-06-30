@@ -501,6 +501,8 @@ ggplot(marketing_summary, aes(x = total_marketing_spend, y = total_revenue, colo
        y = "Total Revenue") +
   theme_minimal()
 ```
+![Marketing Spend vs Revenue by Franchise](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/93942626-0b87-48ed-8c0d-34c9e08aa97f)
+
 # Franchise Longevity
 **We'll examine the lifespan of franchises, including the time between releases and the frequency of new installments.**
 ```R
