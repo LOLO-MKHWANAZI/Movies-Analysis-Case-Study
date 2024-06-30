@@ -534,6 +534,7 @@ ggplot(franchise_lifespan, aes(x = franchise, y = duration, fill = franchise)) +
        y = "Duration (Years)") +
   theme_minimal()
 ```
+![Franchise Longevity](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/8093a248-d92c-4b09-a678-05c7561ab2e4)
 
 # Franchise Popularity
 **Popularity can be measured by social media mentions, search trends, and merchandise sales.**
