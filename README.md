@@ -462,6 +462,9 @@ ggplot(ratings_summary, aes(x = franchise, y = avg_rating, fill = franchise)) +
        y = "Average Rating") +
   theme_minimal()
 ```
+![Average Rating by Franchise](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/fc963cc6-a466-4ba6-a83a-f3fa840d6aa0)
+
+
 # Marketing Strategies
 **We will need data on marketing budgets and promotional activities.**
 ```R
