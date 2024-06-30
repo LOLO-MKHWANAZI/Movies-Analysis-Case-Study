@@ -428,6 +428,8 @@ ggplot(geo_summary, aes(x = region, y = total_viewers, fill = region)) +
        y = "Total Viewers") +
   theme_minimal()
 ```
+![Total Viewers by Region](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/de1c2171-1b28-4e1f-8d96-d9ef75fef438)
+
 # Critical Reception
 **We'll analyze movie ratings and reviews. This might involve scraping or loading data from platforms like IMDb, Rotten Tomatoes, and Metacritic.**
 ```R
