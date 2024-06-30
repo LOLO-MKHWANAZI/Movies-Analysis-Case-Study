@@ -288,6 +288,9 @@ ggplot(revenue_trends, aes(x = release_date, y = total_revenue, color = franchis
        y = "Total Revenue") +
   theme_minimal()
 ```
+
+![Revenue Trends Over Time by Franchise (2)](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/6de20121-2fb0-4658-8ed0-d7d66a3ba595)
+
 # Analyze Performance Across Different Phases
 ```r
 # Adding a phase identifier
