@@ -609,6 +609,10 @@ ggplot(sequel_performance, aes(x = sequel, y = avg_revenue, fill = franchise)) +
        y = "Average Revenue") +
   theme_minimal()
 ```
+
+![Sequel Performance vs Original](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/6485f1a4-2934-4077-a7b9-3994008af563)
+
+
 # Franchise Universes
 **Explore the success of franchise universes where multiple movies share interconnected storylines and characters.**
 ```R
