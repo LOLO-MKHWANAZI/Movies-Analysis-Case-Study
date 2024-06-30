@@ -291,6 +291,52 @@ ggplot(revenue_trends, aes(x = release_date, y = total_revenue, color = franchis
 
 ![Revenue Trends Over Time by Franchise (2)](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/6de20121-2fb0-4658-8ed0-d7d66a3ba595)
 
+## Revenue Trends Over Time by Franchise
+### Observations
+#### Overall Increase in Revenue
+**There's a noticeable trend of increasing total revenue over time, especially from the mid-20th century onwards. This indicates growing box office returns and possibly increased ticket prices or larger audiences.**
+
+### Franchise-Specific Trends
+**Avengers:** The "Avengers" franchise shows a significant spike around the 2010s, indicating major releases with high revenue.
+**Batman:** The "Batman" franchise shows steady revenue growth, with notable peaks that correspond to major movie releases.
+**Harry Potter:** The "Harry Potter" series has a clear peak around the 2000s, aligning with the release dates of its movies.
+**Star Wars:** The "Star Wars" franchise shows multiple peaks, reflecting the different trilogies and major releases across the decades.
+**Other:** This category shows the most extensive spread, as it likely includes a wide range of other movie releases over time.
+### Detailed Analysis
+#### Revenue Growth by Decade
+**1920s to 1960s:** Moderate revenue with a few peaks.
+**1970s to 1990s:** Noticeable increase in peaks, likely due to the rise of blockbuster franchises.
+**2000s to 2020s:** Significant growth, with multiple franchises reaching billion-dollar revenues.
+#### Major Peaks and Spikes
+**The graph shows several major spikes which correspond to highly successful movie releases. These spikes are more frequent in recent years, indicating the growing impact of blockbuster movies.**
+
+### Franchise Longevity and Success
+The "Star Wars" and "Batman" franchises have shown consistent performance over multiple decades, indicating their longevity and sustained audience interest.
+The "Avengers" franchise, though newer, has achieved high revenues in a shorter time span, reflecting the impact of the Marvel Cinematic Universe.
+Potential Factors Influencing Trends
+Inflation and Ticket Prices
+The increasing trend in total revenue can be partially attributed to inflation and rising ticket prices over the years.
+
+### Marketing and Global Reach
+Modern franchises benefit from extensive marketing campaigns and global releases, significantly boosting their revenue.
+
+### Technology and Visual Effects
+Advances in technology and visual effects have made recent movies more appealing, contributing to higher box office returns.
+
+### Expanded Universes and Sequels
+Franchises that expand into cinematic universes (e.g., Marvel, DC) or release sequels tend to generate more revenue over time.
+
+### Conclusion
+The analysis of the revenue trends by franchise shows a clear upward trajectory in total revenues over the decades, with notable contributions from major franchises like "Avengers," "Batman," "Harry Potter," and "Star Wars." This trend highlights the growing importance of blockbuster movies and the evolving landscape of the film industry.
+
+
+
+
+
+
+
+
+
 # Analyze Performance Across Different Phases
 ```r
 # Adding a phase identifier
@@ -711,7 +757,9 @@ ggplot(genre_summary, aes(x = genres_parsed, y = count, fill = genres_parsed)) +
        y = "Count") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
 
+![Genre Ditribution](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/8f1b1a5f-8888-4170-b43d-ca34adc51f83)
 
 
 # Conclusion
