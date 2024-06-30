@@ -332,6 +332,8 @@ ggplot(revenue_trends_phase, aes(x = phase, y = total_revenue, fill = franchise)
        y = "Total Revenue") +
   theme_minimal()
 ```
+![Revenue Trends by Phase and Franchise](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/8e0bd3b6-3ae4-466c-bb77-1779b811dcc9)
+
 # Audience Demographics
 ```r
 # Synthetic dataset for audience demographics
