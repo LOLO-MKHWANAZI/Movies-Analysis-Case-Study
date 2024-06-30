@@ -645,6 +645,10 @@ ggplot(connected_summary, aes(x = connected_universe, y = total_revenue, fill = 
        y = "Total Revenue") +
   theme_minimal()
 ```
+
+![Performance of Connected Universes](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/dc638e8c-b896-42ea-bd91-198439c2bfa2)
+
+
 #Impact of Key Factors
 **Analyze the influence of prominent cast members and directors on the success of franchise movies, as well as the impact of different genres.**
 ```R
