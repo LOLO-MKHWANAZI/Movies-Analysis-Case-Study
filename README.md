@@ -569,6 +569,10 @@ ggplot(popularity_summary, aes(x = social_media_mentions, y = merchandise_sales,
        y = "Merchandise Sales") +
   theme_minimal()
 ```
+
+![Franchise Popularity](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/f6de0ae6-839b-4603-9e7d-0f270d34185b)
+
+
 # Sequel Performance
 **Compare the performance of sequels to the original movies and identify factors that contribute to successful sequels.**
 ```R
