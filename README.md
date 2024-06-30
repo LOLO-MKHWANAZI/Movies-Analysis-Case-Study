@@ -680,6 +680,10 @@ ggplot(factor_summary, aes(x = key_factor, y = avg_revenue, fill = franchise)) +
        y = "Average Revenue") +
   theme_minimal()
 ```
+
+![Impact of Key Factors on Franchise Revenue](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/7cb50e07-25be-4814-9eae-a63040c52136)
+
+
 # Example Movies_clean with Parsed Genres
 ```R
 movies_clean <- data.frame(
