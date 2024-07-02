@@ -502,6 +502,36 @@ ggplot(geo_summary, aes(x = region, y = total_viewers, fill = region)) +
 ```
 ![Total Viewers by Region](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/de1c2171-1b28-4e1f-8d96-d9ef75fef438)
 
+## Total Viewers by Region
+### Observations
+#### Overall Trends
+**The chart shows the distribution of total viewers by region.**
+**Asia:** Asia has the highest number of total viewers, indicating a large audience base.
+**North America:** North America also has a high number of viewers, slightly less than Asia.
+**Europe:** Europe has a moderate number of viewers, positioned between North America and the other regions.
+**South America:** South America has a notable number of viewers, though less than North America and Europe.
+**Australia:** Australia has the lowest number of total viewers among the regions shown.
+### Region-Specific Trends
+**Asia:** Dominates in terms of total viewers, suggesting a significant market for movies.
+**North America:** Has a substantial viewer base, indicating a strong market presence.
+**Europe:** Shows a healthy number of viewers, indicating a stable market.
+**South America:** While less than North America and Europe, still contributes a significant number of viewers.
+**Australia:** Has the smallest viewer base, suggesting a smaller market relative to the other regions.
+### Detailed Analysis
+#### Viewer Distribution
+**Asia:** The largest market with over 10,000 viewers, highlighting its importance in the global market.
+**North America:** Nearly 10,000 viewers, showing a robust and significant market presence.
+**Europe:** Around 7,500 viewers, making it a considerable market for movies.
+**South America:** Around 5,000 viewers, contributing significantly to the overall viewer count.
+**Australia:** Approximately 2,500 viewers, indicating a smaller but still relevant market.
+#### Potential Factors Influencing Trends
+**Population Size:** Regions with larger populations (like Asia and North America) naturally have more potential viewers.
+**Cultural Preferences:** Regional preferences and cultural inclinations may affect the total number of viewers.
+**Economic Factors:** Economic conditions can influence the disposable income available for entertainment purposes.
+**Accessibility and Distribution:** The availability and distribution of movies in these regions can impact viewer numbers.
+### Conclusion
+The analysis of total viewers by region reveals that Asia and North America are the dominant markets, with Europe and South America also making significant contributions. Australia, while having the smallest viewer base, still plays a role in the global market. These trends underscore the importance of targeting diverse geographic regions to maximize audience reach and revenue in the film industry.
+
 # Critical Reception
 **We'll analyze movie ratings and reviews. This might involve scraping or loading data from platforms like IMDb, Rotten Tomatoes, and Metacritic.**
 ```R
