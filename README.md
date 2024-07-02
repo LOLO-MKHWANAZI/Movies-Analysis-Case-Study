@@ -654,6 +654,22 @@ ggplot(franchise_lifespan, aes(x = franchise, y = duration, fill = franchise)) +
 ```
 ![Franchise Longevity](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/8093a248-d92c-4b09-a678-05c7561ab2e4)
 
+## Franchise Longevity
+
+### Observations
+#### Overall Trends
+- **Duration:** Indicates the number of years each franchise has been active.
+- **Comparison:** Provides insight into the longevity and sustained popularity of various franchises.
+#### Franchise-Specific Longevity
+- **Avengers:** Relatively shorter duration compared to other franchises.
+- **Batman:** Moderate longevity with consistent popularity.
+- **Harry Potter:** Shorter duration but significant impact during its active years.
+- **Star Wars:** Long-lasting presence, reflecting sustained audience interest.
+- **Other:** Longest duration, likely encompassing a wide range of other movie series.
+#### Conclusion
+- **Longevity:** Important factor in understanding the enduring success and cultural impact of movie franchises.
+- **Strategic Importance:** Longevity can indicate a franchise's ability to adapt and remain relevant over time.
+
 # Franchise Popularity
 **Popularity can be measured by social media mentions, search trends, and merchandise sales.**
 ```R
@@ -690,6 +706,16 @@ ggplot(popularity_summary, aes(x = social_media_mentions, y = merchandise_sales,
 
 ![Franchise Popularity](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/f6de0ae6-839b-4603-9e7d-0f270d34185b)
 
+## Franchise Popularity
+
+### Observations
+#### Overall Trends
+- **Comparison:** Shows a comparison of social media mentions versus merchandise sales for the "Other" franchise category.
+- **Social Media Mentions:** Approximately 30,000 mentions.
+- **Merchandise Sales:** Around 600,000 units sold.
+### Conclusion
+- Correlation: The chart suggests a potential correlation between social media popularity and merchandise sales.
+- Significance: Highlights the importance of social media presence in driving merchandise sales and overall franchise popularity.
 
 # Sequel Performance
 **Compare the performance of sequels to the original movies and identify factors that contribute to successful sequels.**
