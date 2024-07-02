@@ -562,101 +562,13 @@ ggplot(ratings_summary, aes(x = franchise, y = avg_rating, fill = franchise)) +
 ![Average Rating by Franchise](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/fc963cc6-a466-4ba6-a83a-f3fa840d6aa0)
 
 
-## Movie Revenue and Viewership Analysis
-### Observations and Analysis
-### 1. Revenue Trends Over Time by Franchise
-#### Overall Increase in Revenue
-- **Trend:** There's a noticeable trend of increasing total revenue over time, especially from the mid-20th century onwards.
-- **Indication:** This indicates growing box office returns and possibly increased ticket prices or larger audiences.
-#### Franchise-Specific Trends
-- **Avengers:** Shows a significant spike around the 2010s, indicating major releases with high revenue.
-- **Batman:** Steady revenue growth with notable peaks corresponding to major movie releases.
-- **Harry Potter:** Clear peak around the 2000s, aligning with the release dates of its movies.
-- **Star Wars:** Multiple peaks reflecting the different trilogies and major releases across the decades.
-- **Other:** The most extensive spread, likely including a wide range of other movie releases over time.
-### Detailed Analysis
-#### Revenue Growth by Decade:
-
-- **1920s to 1960s:** Moderate revenue with a few peaks.
-- **1970s to 1990s:** Noticeable increase in peaks, likely due to the rise of blockbuster franchises.
-- **2000s to 2020s:** Significant growth, with multiple franchises reaching billion-dollar revenues.
-- **Major Peaks and Spikes:** Several major spikes correspond to highly successful movie releases, more frequent in recent years.
-
-#### Franchise Longevity and Success
-- **Star Wars and Batman:** Consistent performance over multiple decades, indicating longevity and sustained audience interest.
-- **Avengers:** Achieved high revenues in a shorter time span, reflecting the impact of the Marvel Cinematic Universe.
-#### Potential Factors Influencing Trends
-- ***Inflation and Ticket Prices:** Increasing trend in total revenue can be partially attributed to inflation and rising ticket prices over the years.
-- **Marketing and Global Reach:** Extensive marketing campaigns and global releases significantly boost revenue.
-- **Technology and Visual Effects:** Advances in technology and visual effects have made recent movies more appealing, contributing to higher box office returns.
-- **Expanded Universes and Sequels:** Franchises that expand into cinematic universes or release sequels tend to generate more revenue over time.
-### Conclusion
-- **Trend:** The analysis shows a clear upward trajectory in total revenues over the decades, with notable contributions from major franchises like "Avengers," "Batman," "Harry Potter," and "Star Wars."
-- **Significance:** This trend highlights the growing importance of blockbuster movies and the evolving landscape of the film industry.
-  ### 2. Revenue Trends by Phase and Franchise
+## Average Rating by Franchise*
 ### Observations
-#### Overall Trends:
-
-- **Initial releases significantly outperform sequels in terms of total revenue.**
-- **Sequels generate comparatively lower revenue across all franchises.**
-#### Franchise-Specific Trends:
-
-- **Avengers:** Noticeable contribution in initial releases but less so in sequels.
-- **Batman:** Both initial releases and sequels contribute to revenue, with slightly higher revenue from initial releases.
-- **Harry Potter:** Initial releases contribute significantly more to the total revenue than sequels.
-- **Star Wars:** Considerable revenue from both initial releases and sequels, although initial releases still dominate.
-- **Other:** The most significant difference, with initial releases contributing massively to the total revenue.
-### Detailed Analysis
-#### Revenue Distribution:
-- **Initial Releases:** Overwhelmingly contribute to the total revenue, capturing the highest audience interest and box office returns.
-- **Sequels:** Play an important role in sustaining a franchise's success over time despite lower revenue compared to initial releases.
-#### Potential Factors Influencing Trends
-- **Audience Interest:** Initial releases often generate more hype and anticipation, leading to higher box office returns.
-- **Sequel Performance:** Sequels may experience diminishing returns if they fail to meet or exceed the expectations set by their predecessors.
-- **Marketing and Promotions:** Initial releases generally receive more extensive marketing campaigns, driving higher audience turnout.
-- **Story Continuity:** Successful initial releases often create a loyal fan base that continues to support sequels, although not always to the same extent.
+- The chart indicates that only the "Other" category has been rated, with an average rating of 5.
+- This suggests that either no ratings are available for the specific franchises listed, or the data may be incomplete.
 ### Conclusion
-- **Impact of Initial Releases:** Initial movie releases drive total revenue significantly.
-- **Role of Sequels:** Although sequels contribute less overall, they are essential for franchise longevity and continued success.
-- **Franchise Patterns:** Major franchises like "Avengers," "Batman," "Harry Potter," and "Star Wars" show higher revenues from initial releases, highlighting the importance of strong ### franchise beginnings.
-  ### 3. Total Viewers by Region
-#### Observations
-**Overall Trends: Distribution of total viewers by region.**
-- **Asia:** Highest number of total viewers, indicating a large audience base.
-- **North America:** High number of viewers, slightly less than Asia.
-- **Europe:** Moderate number of viewers.
-- **South America:** Notable number of viewers, though less than North America and Europe.
-**Australia:** Lowest number of total viewers among the regions shown.
-#### Region-Specific Trends
-- **Asia:** Dominates in terms of total viewers, suggesting a significant market for movies.
-- **North America:** Substantial viewer base, indicating a strong market presence.
-- **Europe:** Healthy number of viewers, indicating a stable market.
-- **South America:** Contributes significantly to the overall viewer count.
-- **Australia:** Smaller but still relevant market relative to the other regions.
-### Detailed Analysis
-#### Viewer Distribution:
-- **Asia:** Largest market with over 10,000 viewers.
-- **North America:** Nearly 10,000 viewers.
-- **Europe:** Around 7,500 viewers.
-- **South America:** Around 5,000 viewers.
-- **Australia:** Approximately 2,500 viewers.
-#### Potential Factors Influencing Trends
-- **Population Size:** Regions with larger populations naturally have more potential viewers.
-- **Cultural Preferences:** Regional preferences and cultural inclinations may affect the total number of viewers.
-- **Economic Factors:** Economic conditions can influence the disposable income available for entertainment purposes.
-- **Accessibility and Distribution:** The availability and distribution of movies in these regions can impact viewer numbers.
-### Conclusion
-- **Dominant Markets:** Asia and North America are the dominant markets.
-- **Significant Contributions:** Europe and South America also make significant contributions.
-- **Australia's Role:** Smaller viewer base but still plays a role in the global market.
-- **Strategic Importance** Targeting diverse geographic regions is crucial to maximize audience reach and revenue in the film industry.
-## 4. Average Rating by Franchise*
-### Observations
-The chart indicates that only the "Other" category has been rated, with an average rating of 5.
-This suggests that either no ratings are available for the specific franchises listed, or the data may be incomplete.
-### Conclusion
-Data Gaps: The lack of ratings for specific franchises may indicate a need for more comprehensive data collection.
-Significance of Ratings: Average ratings can provide insights into audience satisfaction and movie quality, important for understanding overall franchise performance.
+- **Data Gaps:** The lack of ratings for specific franchises may indicate a need for more comprehensive data collection.
+- **Significance of Ratings:** Average ratings can provide insights into audience satisfaction and movie quality, important for understanding overall franchise performance.
 By understanding these trends and patterns, stakeholders in the film industry can make informed decisions about movie releases, marketing strategies, and audience engagement to optimize revenue and viewership.
 
 
@@ -698,6 +610,16 @@ ggplot(marketing_summary, aes(x = total_marketing_spend, y = total_revenue, colo
   theme_minimal()
 ```
 ![Marketing Spend vs Revenue by Franchise](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/93942626-0b87-48ed-8c0d-34c9e08aa97f)
+
+## Marketing Spend vs Revenue by Franchise
+### Observations
+#### Overall Trends
+- **The chart shows a comparison of total marketing spend versus revenue for the "Other" franchise category.**
+- **Revenue:** Approximately $25 million.
+- **Marketing Spend:** Also approximately $25 million.
+### Conclusion
+- **Balanced Spend:** For the "Other" franchise category, the marketing spend closely matches the revenue generated.
+- **Significance:** Indicates the importance of marketing investment in achieving revenue goals.
 
 # Franchise Longevity
 **We'll examine the lifespan of franchises, including the time between releases and the frequency of new installments.**
