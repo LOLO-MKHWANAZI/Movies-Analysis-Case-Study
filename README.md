@@ -756,6 +756,13 @@ ggplot(sequel_performance, aes(x = sequel, y = avg_revenue, fill = franchise)) +
 
 ![Sequel Performance vs Original](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/6485f1a4-2934-4077-a7b9-3994008af563)
 
+## Sequel Performance vs Original
+### Observations
+- **Avengers and Harry Potter:** Sequels outperform original movies in terms of average revenue.
+- **Batman and Star Wars:** Original movies outperform sequels.
+- **Other:** Sequels contribute significantly to average revenue.
+### Conclusion
+The chart indicates varying performance between sequels and original movies, suggesting that some franchises achieve higher revenue from sequels while others perform better with original releases.
 
 # Franchise Universes
 **Explore the success of franchise universes where multiple movies share interconnected storylines and characters.**
@@ -792,6 +799,11 @@ ggplot(connected_summary, aes(x = connected_universe, y = total_revenue, fill = 
 
 ![Performance of Connected Universes](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/dc638e8c-b896-42ea-bd91-198439c2bfa2)
 
+## Performance of Connected Universes
+### Observations
+- Other: Data represents a single connected universe, indicating aggregated or limited data.
+### Conclusion
+Further data may be required to analyze the performance of different connected universes comprehensively.
 
 #Impact of Key Factors
 **Analyze the influence of prominent cast members and directors on the success of franchise movies, as well as the impact of different genres.**
