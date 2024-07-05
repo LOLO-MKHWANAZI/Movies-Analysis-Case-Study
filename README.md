@@ -512,7 +512,7 @@ ggplot(geo_summary, aes(x = region, y = total_viewers, fill = region)) +
        y = "Total Viewers") +
   theme_minimal()
 ```
-![Total Viewers by Region](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/de1c2171-1b28-4e1f-8d96-d9ef75fef438)
+![Total Viewers by Region](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/1a03d2a9-7616-4d5b-8f47-48ba21aeb9e6)
 
 ## Total Viewers by Region
 ### Observations
