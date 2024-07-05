@@ -453,7 +453,24 @@ ggplot(demographic_summary, aes(x = age_group, y = total_viewers, fill = gender)
        x = "Age Group",
        y = "Total Viewers") +
   theme_minimal()
+```
 
+## Audience Demographics by Age Group, Gender, and Region
+**The chart illustrates the total viewers categorized by age group, gender, and region.**
+
+### Observations
+#### Region-Specific Trends
+- **Asia:** Males aged 18-25 form the largest audience group.
+- **Australia:** A smaller audience with no distinct trend visible.
+- **Europe:** Females aged 18-25 dominate the viewership.
+- **North America:** Males aged 18-25 are the predominant viewers.
+- **South America:** Males aged 18-25 show the highest viewership.
+### Conclusion
+The demographic analysis indicates that young males (18-25) are the predominant viewers in most regions, with a notable exception in Europe where young females (18-25) are the leading audience group.
+
+
+
+```R
 # Print the structure of audience_data
 str(audience_data)
 data.frame':	5 obs. of  6 variables:
@@ -552,12 +569,14 @@ A tibble: 1 × 3
 ```
 # Plotting Critical Reception
 ```R
-ggplot(ratings_summary, aes(x = franchise, y = avg_rating, fill = franchise)) +
-  geom_bar(stat = "identity") +
-  labs(title = "Average Rating by Franchise",
-       x = "Franchise",
-       y = "Average Rating") +
-  theme_minimal()
+ggplot(geo_summary, aes(x = region, y = total_viewers, fill = region)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Total Viewers by Region",
+       x = "Region",
+       y = "Total Viewers") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
 ```
 ![Average Rating by Franchise](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/fc963cc6-a466-4ba6-a83a-f3fa840d6aa0)
 
