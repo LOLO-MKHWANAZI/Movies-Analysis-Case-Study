@@ -839,6 +839,12 @@ ggplot(factor_summary, aes(x = key_factor, y = avg_revenue, fill = franchise)) +
 
 ![Impact of Key Factors on Franchise Revenue](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/7cb50e07-25be-4814-9eae-a63040c52136)
 
+## Impact of Key Factors on Franchise Revenue
+### Observations
+#### Overall Trends
+**The chart displays the average revenue for the "Other" category of franchises, indicating the impact of budget as a key factor.**
+### Conclusion
+The impact of key factors on franchise revenue chart suggests that a higher budget can significantly influence the average revenue of movies, as seen in the "Other" franchise category.
 
 # Example Movies_clean with Parsed Genres
 ```R
@@ -870,6 +876,19 @@ ggplot(genre_summary, aes(x = genres_parsed, y = count, fill = genres_parsed)) +
 ```
 
 ![Genre Ditribution](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/8f1b1a5f-8888-4170-b43d-ca34adc51f83)
+
+## Genre Distribution
+### Observations
+#### Overall Trends
+**The chart shows the distribution of different genres in the "Other" category, highlighting the variety of movie genres.**
+#### Genre-Specific Trends
+**Action:** Shows a moderate count.
+**Adventure:** Has the highest count, indicating its popularity.
+**Animation:** Displays a moderate count.
+**Drama:** Also shows a moderate count.
+**Fantasy:** Indicates a moderate count as well.
+### Conclusion
+The genre distribution chart highlights the popularity of adventure movies in the "Other" category, suggesting a preference for this genre among audiences.
 
 
 # Conclusion
