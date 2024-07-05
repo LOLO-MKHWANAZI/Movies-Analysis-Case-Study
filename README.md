@@ -452,7 +452,9 @@ ggplot(demographic_summary, aes(x = age_group, y = total_viewers, fill = gender)
   labs(title = "Audience Demographics by Age Group, Gender, and Region",
        x = "Age Group",
        y = "Total Viewers") +
-  theme_minimal()
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
 ```
 
 ## Audience Demographics by Age Group, Gender, and Region
