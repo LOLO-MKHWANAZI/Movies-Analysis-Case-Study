@@ -805,7 +805,7 @@ ggplot(connected_summary, aes(x = connected_universe, y = total_revenue, fill = 
 ### Conclusion
 Further data may be required to analyze the performance of different connected universes comprehensively.
 
-## #Impact of Key Factors
+### Impact of Key Factors
 **Analyze the influence of prominent cast members and directors on the success of franchise movies, as well as the impact of different genres.**
 ```R
 # Synthetic Dataset for Key Factors
