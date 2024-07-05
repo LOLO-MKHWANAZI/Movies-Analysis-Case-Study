@@ -805,7 +805,7 @@ ggplot(connected_summary, aes(x = connected_universe, y = total_revenue, fill = 
 ### Conclusion
 Further data may be required to analyze the performance of different connected universes comprehensively.
 
-#Impact of Key Factors
+## #Impact of Key Factors
 **Analyze the influence of prominent cast members and directors on the success of franchise movies, as well as the impact of different genres.**
 ```R
 # Synthetic Dataset for Key Factors
@@ -882,11 +882,11 @@ ggplot(genre_summary, aes(x = genres_parsed, y = count, fill = genres_parsed)) +
 #### Overall Trends
 **The chart shows the distribution of different genres in the "Other" category, highlighting the variety of movie genres.**
 #### Genre-Specific Trends
-**Action:** Shows a moderate count.
-**Adventure:** Has the highest count, indicating its popularity.
-**Animation:** Displays a moderate count.
-**Drama:** Also shows a moderate count.
-**Fantasy:** Indicates a moderate count as well.
+- **Action:** Shows a moderate count.
+- **Adventure:** Has the highest count, indicating its popularity.
+- **Animation:** Displays a moderate count.
+- **Drama:** Also shows a moderate count.
+- **Fantasy:** Indicates a moderate count as well.
 ### Conclusion
 The genre distribution chart highlights the popularity of adventure movies in the "Other" category, suggesting a preference for this genre among audiences.
 
