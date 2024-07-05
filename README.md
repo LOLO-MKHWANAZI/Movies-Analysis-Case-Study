@@ -457,6 +457,9 @@ ggplot(demographic_summary, aes(x = age_group, y = total_viewers, fill = gender)
 
 ```
 
+![Audience Demographics by Age Group, Gender, and Region](https://github.com/LOLO-MKHWANAZI/Movies-Analysis-Case-Study/assets/163551783/9f936cc0-d77e-49b1-9bc7-759d8b272fce)
+
+
 ## Audience Demographics by Age Group, Gender, and Region
 **The chart illustrates the total viewers categorized by age group, gender, and region.**
 
