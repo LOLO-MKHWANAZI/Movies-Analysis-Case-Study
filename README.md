@@ -1199,8 +1199,9 @@ The chart shows the average rating for the "Other" category of franchises, indic
 
 
 ## License
+```R
 - The "Movies Dataset" by Rounak Banik is available under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt the dataset, provided you give appropriate credit, provide a link to the license, and indicate if changes were made.
-
+```
 ## Acknowledgments
 - We would like to thank Rounak Banik for providing the "Movies Dataset" and making it available for public use. This dataset has been invaluable for our analysis of movie franchises.
 
